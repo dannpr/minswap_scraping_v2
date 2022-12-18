@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV Parsing min</title>
+</head>
+<body>
+    <!-- Include the jQuery library and the PapaParse library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.2.0/papaparse.min.js"></script>
+    
+    <!-- Add a script tag to include the CSV parsing code -->
+    <script>
+        $(document).ready(function() {
+            $.ajax({
+                url: 'data.csv',
+                dataType: 'text',
+                success: function(data) {
+                    var csvData = Papa.parse(data, {
+                        header: true
+                    }).data;
+                    console.log(csvData);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
