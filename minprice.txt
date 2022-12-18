@@ -3,4 +3,4 @@ This is the current  price of MIN
 Name: MIN
 Price: 0.0431 ₳
  
-Sun Dec 18 16:53:04 UTC 2022
+Sun Dec 18 17:28:24 UTC 2022
