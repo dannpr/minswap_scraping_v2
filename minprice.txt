@@ -1,0 +1,6 @@
+This is the current  price of MIN
+ 
+Name: MIN
+Price: 0.0413 ₳
+ 
+Fri Jan 20 18:12:53 UTC 2023
